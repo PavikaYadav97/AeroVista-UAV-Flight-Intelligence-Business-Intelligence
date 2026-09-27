@@ -1,0 +1,17 @@
+cat > .gitignore <<'EOF'
+.DS_Store
+__pycache__/
+*.pyc
+.vscode/
+venv/
+.venv/
+.env/
+
+# Ignore ALL CSV and ZIP files anywhere in project
+*.csv
+*.zip
+
+# Keep generated visualizations
+!data/processed/visualizations/*.png
+EOF*.json
+*.json
